@@ -20,6 +20,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.invasivespeciesdetection.ml.MobilenetV110224Quant;
 import com.example.invasivespeciesdetection.ml.ModelUnquant;
 
 import org.tensorflow.lite.DataType;
@@ -82,8 +83,10 @@ public class MainActivity extends AppCompatActivity {
         captureButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+/*
                 try {
+
+                    /*
                     ModelUnquant model = ModelUnquant.newInstance(MainActivity.this);
 
                     // Creates inputs for reference.
@@ -96,8 +99,31 @@ public class MainActivity extends AppCompatActivity {
                     TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
                     // Set text
-                    // Prevent model return from items with confidence below 70%
-                    result.setText(getMax(outputFeature0.getFloatArray()) + " ");
+                    // Prevent model return from items with confidence below 65%
+
+
+                    result.setText(getMax(outputFeature0.getFloatArray()) + "");
+
+                    // Releases model resources if no longer used.
+                    model.close();
+                } catch (IOException e) {
+                    // TODO Handle the exception
+                }
+                */
+                try {
+                    MobilenetV110224Quant model = MobilenetV110224Quant.newInstance(MainActivity.this);
+
+                    // Creates inputs for reference.
+                    TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.UINT8);
+
+                    bitmap = Bitmap.createScaledBitmap(bitmap, 224, 224, true);
+                    inputFeature0.loadBuffer(TensorImage.fromBitmap(bitmap).getBuffer());
+
+                    // Runs model inference and gets result.
+                    MobilenetV110224Quant.Outputs outputs = model.process(inputFeature0);
+                    TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
+
+                    result.setText(getMax(outputFeature0.getFloatArray()) + "");
 
                     // Releases model resources if no longer used.
                     model.close();
@@ -105,12 +131,14 @@ public class MainActivity extends AppCompatActivity {
                     // TODO Handle the exception
                 }
 
+
             }
         });
 
+
     }
 
-    int getMax(float[] arr)  {
+    int getMax(float[] arr) {
         int max = 0;
         for (int i = 0; i < arr.length; i++) {
                 if (arr[i] > arr[max]) {
@@ -132,7 +160,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return records.get(arr).get(1);
     }
-
      */
 
     private List<String> getRecordFromLine(String line) {
