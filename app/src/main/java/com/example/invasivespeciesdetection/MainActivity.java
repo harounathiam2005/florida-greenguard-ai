@@ -32,6 +32,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -53,6 +54,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getPermission();
+
+        String[] labels = new String[1001];
+        int count = 0;
+
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("labels_example.txt")));
+            String line = bufferedReader .readLine();
+            while (line != null) {
+                labels[count] = line;
+                count++;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         selectButton = findViewById(R.id.selectButton);
         captureButton = findViewById(R.id.captureButton);
@@ -123,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
                     MobilenetV110224Quant.Outputs outputs = model.process(inputFeature0);
                     TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
-                    result.setText(getMax(outputFeature0.getFloatArray()) + "");
+                    result.setText(labels[getMax(outputFeature0.getFloatArray())] + "");
 
                     // Releases model resources if no longer used.
                     model.close();
