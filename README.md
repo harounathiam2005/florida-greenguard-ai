@@ -1,6 +1,6 @@
 # Florida-GreenGuard-AI
 
-A tool to streamline the detection process of invasive species in the Tampa Bay area.
+A tool to streamline the identification process of invasive species in the Tampa Bay area.
 
 </br>
 <img src="https://landscapeforlife.colostate.edu/wp-content/uploads/2017/12/74_1459323-LGPT.jpg" height=300px></img>
