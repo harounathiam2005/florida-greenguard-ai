@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        captureButton.setOnClickListener(new View.OnClickListener() {
+        predictButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 /*
