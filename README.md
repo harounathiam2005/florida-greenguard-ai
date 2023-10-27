@@ -2,7 +2,12 @@
 
 A tool to streamline the identification process of invasive and non-native species in the Florida area.
 
+</br>
+
 <img src="https://landscapeforlife.colostate.edu/wp-content/uploads/2017/12/74_1459323-LGPT.jpg" height=300px></img>
+
+</br>
+</hr>
 
 <h3><b>Florida GreenGuard AI</b></h3>
 <p>
@@ -16,6 +21,7 @@ The app leverages the power of a machine learning image classification model tra
 </p>
 
 </br>
+</hr>
 
 <h3>Tools used:</h3>
 
