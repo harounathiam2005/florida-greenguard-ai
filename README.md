@@ -3,7 +3,7 @@
 A possible attempt to streamline the detection process of invasive species in the Tampa Bay area.
 
 </br>
-<img src="https://landscapeforlife.colostate.edu/wp-content/uploads/2017/12/74_1459323-LGPT.jpg">Invasive Species</img>
+<img src="https://landscapeforlife.colostate.edu/wp-content/uploads/2017/12/74_1459323-LGPT.jpg" height=50px></img>
 </br>
 
 **Florida GreenGuard AI** is an app and environmental tool developed to equip environmentalists and residents in the Sunshine State with the power to recognize possible threats towards ecosystem health and biodiversity. With the rapid spread of invasive species, Florida’s unique, expansive, and cherished ecosystems stand to lose their natural rich biodiversity to overpopulation and invasive competition for resources. Florida GreenGuard AI aims to empower the people of Florida to recognize potential threats to the state’s natural tropical beauty.
