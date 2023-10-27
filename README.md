@@ -11,7 +11,7 @@ An app and environmental tool developed to equip environmentalists and residents
 </br>
 The app leverages the power of a machine learning image classification model trained on hundreds of non-native plant species (to the state of Florida) from tens of thousands of collected images of non-Florida native flora. With this tool, the hope is for environmentalists and interested residents alike to identify non-native plant species in Florida with high accuracy and take the required steps to deal with harmful non-native plants that impact the state’s biodiversity.
 
-<hr>
+</br>
 
 <h3>Tools used:</h3>
 
