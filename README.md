@@ -24,5 +24,4 @@ The app leverages the power of a machine learning image classification model tra
 </br>
 
 Information gleaned from various verified sources to determine the species that are not native to Florida:
-<a hfref="https://www.usda.gov/"></a>
-
+<a hfref="https://www.usda.gov/">US Department of Agriculture</a>
