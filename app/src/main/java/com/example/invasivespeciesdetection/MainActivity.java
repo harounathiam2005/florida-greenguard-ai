@@ -100,32 +100,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 try {
-
-
-                    ModelUnquant model = ModelUnquant.newInstance(MainActivity.this);
-
-                    // Creates inputs for reference.
-                    TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);
-                    inputFeature0.loadBuffer(TensorImage.fromBitmap(bitmap).getBuffer());
-
-                    bitmap = Bitmap.createScaledBitmap(bitmap, 224, 224, true);
-                    // Runs model inference and gets result.
-                    ModelUnquant.Outputs outputs = model.process(inputFeature0);
-                    TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
-
-                    // Set text
-                    // Prevent model return from items with confidence below 65%
-
-
-                    result.setText(getMax(outputFeature0.getFloatArray()) + "");
-
-                    // Releases model resources if no longer used.
-                    model.close();
-                } catch (IOException e) {
-                    // TODO Handle the exception
-                }
-                /*
-                try {
                     MobilenetV110224Quant model = MobilenetV110224Quant.newInstance(MainActivity.this);
 
                     // Creates inputs for reference.
@@ -146,12 +120,8 @@ public class MainActivity extends AppCompatActivity {
                     // TODO Handle the exception
                 }
 
-                 */
-
-
             }
         });
-
 
     }
 
