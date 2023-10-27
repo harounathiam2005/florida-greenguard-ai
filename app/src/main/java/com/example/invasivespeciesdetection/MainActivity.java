@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("labels_example.txt")));
-            String line = bufferedReader .readLine();
-            while (line != null) {
+            String line = bufferedReader.readLine();
+            while (line != null && count < 1001) {
                 labels[count] = line;
                 count++;
             }
@@ -98,10 +98,10 @@ public class MainActivity extends AppCompatActivity {
         predictButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-/*
+
                 try {
 
-                    /*
+
                     ModelUnquant model = ModelUnquant.newInstance(MainActivity.this);
 
                     // Creates inputs for reference.
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (IOException e) {
                     // TODO Handle the exception
                 }
-                */
+                /*
                 try {
                     MobilenetV110224Quant model = MobilenetV110224Quant.newInstance(MainActivity.this);
 
@@ -145,6 +145,8 @@ public class MainActivity extends AppCompatActivity {
                 } catch (IOException e) {
                     // TODO Handle the exception
                 }
+
+                 */
 
 
             }
