@@ -1,0 +1,6 @@
+# Ignore the local.properties file
+local.properties
+
+# Ignore build output directories
+/build/
+/app/build/
