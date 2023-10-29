@@ -8,6 +8,10 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="32" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -15,6 +19,7 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:debuggable="true"
+        android:extractNativeLibs="true"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"

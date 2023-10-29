@@ -13,6 +13,7 @@ id captureButton
 id identifyButton
 id imageView
 id output
+id outputDesc
 id selectButton
 id title
 layout activity_main

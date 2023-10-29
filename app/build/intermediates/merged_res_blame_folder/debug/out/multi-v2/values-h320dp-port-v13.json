@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.invasivespeciesdetection.app-mergeDebugResources-17:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.example.invasivespeciesdetection.app-mergeDebugResources-16:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/harouna/.gradle/caches/transforms-3/083bd3f816816850587c63c88084f85c/transformed/material-1.4.0/res/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\Harou\\.gradle\\caches\\transforms-3\\3dfa35fa12f945f006b5b12a772cf04d\\transformed\\material-1.4.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

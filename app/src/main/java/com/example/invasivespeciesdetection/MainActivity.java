@@ -40,7 +40,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-// TODO: Create pop-up to replace result, Add decor to UI, Implement second page w/ alternate model to detect plant health, Implement third page as a detector for general organisms.
+// TODO: Create pop-up to replace result, Add decor to UI, Implement second page w/ alternate model to detect plant health,
+//  ! - Implement LLM API to handle descriptions of plants - ! **Implement third page as a detector for general organisms.
 
 public class MainActivity extends AppCompatActivity {
 

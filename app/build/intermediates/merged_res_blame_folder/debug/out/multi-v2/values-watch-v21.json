@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.invasivespeciesdetection.app-mergeDebugResources-17:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.example.invasivespeciesdetection.app-mergeDebugResources-16:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/Users/harouna/.gradle/caches/transforms-3/5dde970b1729ca206195f6b1dfead0f7/transformed/appcompat-1.3.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "C:\\Users\\Harou\\.gradle\\caches\\transforms-3\\8651f857b10015c1ef9b742b4fdbe6fc\\transformed\\appcompat-1.3.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

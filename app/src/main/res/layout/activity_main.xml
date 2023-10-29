@@ -18,19 +18,20 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="60dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/title"
         android:id="@+id/imageView" />
 
     <Button
+        android:id="@+id/selectButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select image"
         android:layout_below="@id/imageView"
-        android:id="@+id/selectButton"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Select image" />
 
     <Button
         android:layout_width="wrap_content"
@@ -48,7 +49,8 @@
         android:layout_below="@id/captureButton"
         android:id="@+id/identifyButton"
         android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@color/teal_200" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -58,7 +60,18 @@
         android:id="@+id/output"
         android:textSize="18dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp" />
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Description: "
+        android:layout_below="@id/output"
+        android:id="@+id/outputDesc"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
 
 
 </RelativeLayout>
