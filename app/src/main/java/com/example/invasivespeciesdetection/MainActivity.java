@@ -33,6 +33,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -47,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageView;
     Bitmap bitmap;
 
+    int labelSize = 38;
+
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,20 +58,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getPermission();
-
-        String[] labels = new String[1001];
-        int count = 0;
-
-        try {
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("labels_example.txt")));
-            String line = bufferedReader.readLine();
-            while (line != null && count < 1001) {
-                labels[count] = line;
-                count++;
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
         selectButton = findViewById(R.id.selectButton);
         captureButton = findViewById(R.id.captureButton);
@@ -101,53 +91,46 @@ public class MainActivity extends AppCompatActivity {
 
                 try {
 
+                    bitmap = Bitmap.createScaledBitmap(bitmap, 224, 224, true);
 
                     ModelUnquant model = ModelUnquant.newInstance(MainActivity.this);
 
                     // Creates inputs for reference.
                     TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);
-                    inputFeature0.loadBuffer(TensorImage.fromBitmap(bitmap).getBuffer());
 
-                    bitmap = Bitmap.createScaledBitmap(bitmap, 224, 224, true);
+                    ByteBuffer byteBuffer = ByteBuffer.allocateDirect(4 * 224 * 224 * 3);
+                    byteBuffer.order(ByteOrder.nativeOrder());
+
+                    // get 1D array of 224 * 224 pixels in image
+                    int [] intValues = new int[224 * 224];
+                    bitmap.getPixels(intValues, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
+
+                    // iterate over pixels and extract R, G, and B values. Add to bytebuffer.
+                    int pixel = 0;
+                    for(int i = 0; i < 224; i++){
+                        for(int j = 0; j < 224; j++){
+                            int val = intValues[pixel++]; // RGB
+                            byteBuffer.putFloat(((val >> 16) & 0xFF) * (1.f / 255.f));
+                            byteBuffer.putFloat(((val >> 8) & 0xFF) * (1.f / 255.f));
+                            byteBuffer.putFloat((val & 0xFF) * (1.f / 255.f));
+                        }
+                    }
+
+                    inputFeature0.loadBuffer(byteBuffer);
+
                     // Runs model inference and gets result.
                     ModelUnquant.Outputs outputs = model.process(inputFeature0);
                     TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
                     // Set text
                     // Prevent model return from items with confidence below 65%
-
-
-                    result.setText(getMax(outputFeature0.getFloatArray()) + "");
+                    result.setText(getLabels()[getMax(outputFeature0.getFloatArray())] + "");
 
                     // Releases model resources if no longer used.
                     model.close();
                 } catch (IOException e) {
                     // TODO Handle the exception
                 }
-                /*
-                try {
-                    MobilenetV110224Quant model = MobilenetV110224Quant.newInstance(MainActivity.this);
-
-                    // Creates inputs for reference.
-                    TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.UINT8);
-
-                    bitmap = Bitmap.createScaledBitmap(bitmap, 224, 224, true);
-                    inputFeature0.loadBuffer(TensorImage.fromBitmap(bitmap).getBuffer());
-
-                    // Runs model inference and gets result.
-                    MobilenetV110224Quant.Outputs outputs = model.process(inputFeature0);
-                    TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
-
-                    result.setText(labels[getMax(outputFeature0.getFloatArray())] + "");
-
-                    // Releases model resources if no longer used.
-                    model.close();
-                } catch (IOException e) {
-                    // TODO Handle the exception
-                }
-
-                 */
-
 
             }
         });
@@ -163,6 +146,25 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         return max;
+    }
+
+    String[] getLabels() {
+
+        String[] labels = new String[labelSize];
+        int count = 0;
+
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("labels.txt")));
+            String line = bufferedReader.readLine();
+            while (line != null && count < labelSize) {
+                labels[count] = line;
+                count++;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return labels;
     }
 
     /*
