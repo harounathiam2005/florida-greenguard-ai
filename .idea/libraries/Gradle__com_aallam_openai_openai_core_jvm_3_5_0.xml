@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.aallam.openai:openai-core-jvm:3.5.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aallam.openai/openai-core-jvm/3.5.0/27b3a788eae8739df6a83dce4b1403510dfbf3b2/openai-core-jvm.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aallam.openai/openai-core-jvm/3.5.0/2169eebb87089f069420f1ca2e5f94cdefb9279b/openai-core-jvm-3.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aallam.openai/openai-core-jvm/3.5.0/89954e2465bf1fb39ba98026ce05ec867b35096b/openai-core-jvm-3.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
