@@ -159,37 +159,15 @@ public class MainActivity extends AppCompatActivity {
             while (line != null && count < labelSize) {
                 labels[count] = line;
                 count++;
+                line = bufferedReader.readLine(); // Advance to the next line
             }
+            bufferedReader.close(); // Close the file when done
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         return labels;
-    }
 
-    /*
-    String getDescription(float[] arr) {
-        List<List<String>> records = new ArrayList<>();
-        try (Scanner scanner = new Scanner(new File("label_descriptions.csv"))) {
-            while (scanner.hasNextLine()) {
-                records.add(getRecordFromLine(scanner.nextLine()));
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        return records.get(arr).get(1);
-    }
-     */
-
-    private List<String> getRecordFromLine(String line) {
-        List<String> values = new ArrayList<String>();
-        try (Scanner rowScanner = new Scanner(line)) {
-            rowScanner.useDelimiter(",");
-            while (rowScanner.hasNext()) {
-                values.add(rowScanner.next());
-            }
-        }
-        return values;
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
