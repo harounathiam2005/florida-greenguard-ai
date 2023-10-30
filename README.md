@@ -27,7 +27,6 @@ The app leverages the power of a machine learning image classification model tra
 
 <li>Google Teachable Machine; Image Classification Model</li>
 <li>TensorFlow; TensorFlow Lite Model</li>
-<li>Langchain</li>
 <li>OpenAI API; GPT-3 Large Language Model</li>
 <li>Android Studio</li>
 <li>AS Emulation Device (+ HAXM for Windows)</li>
