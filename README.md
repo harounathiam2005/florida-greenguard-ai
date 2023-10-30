@@ -1,6 +1,6 @@
 # Florida-GreenGuard-AI
 
-A tool to streamline the identification process of invasive and non-native species in the Florida area.
+Streamline the identification process of invasive and non-native species in the Florida area.
 
 </br>
 
@@ -25,8 +25,9 @@ The app leverages the power of a machine learning image classification model tra
 
 <h3>Tools used:</h3>
 
-<li>Google Teachable Machine</li>
+<li>Google Teachable Machine; Image Classification Model</li>
 <li>TensorFlow; TensorFlow Lite Model</li>
+<li>OpenAI API; GPT-3 Large Language Model</li>
 <li>Android Studio</li>
 <li>AS Emulation Device (+ HAXM for Windows)</li>
 <li>Java - Kotlin - XML</li>
