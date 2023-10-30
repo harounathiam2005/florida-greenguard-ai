@@ -1,5 +1,6 @@
 # Ignore the local.properties file
 local.properties
+APIKey.java
 
 # Ignore build output directories
 /build/

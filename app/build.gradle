@@ -46,6 +46,10 @@ dependencies {
     // import Kotlin API client BOM
     implementation platform('com.aallam.openai:openai-client-bom:3.5.0')
 
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.2"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.2"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.7.2"
+
     // define dependencies without versions
     implementation 'com.aallam.openai:openai-client'
     runtimeOnly 'io.ktor:ktor-client-okhttp'

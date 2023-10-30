@@ -3,7 +3,6 @@ package com.example.invasivespeciesdetection;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import androidx.annotation.RequiresPermission;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
@@ -20,25 +19,16 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.invasivespeciesdetection.ml.MobilenetV110224Quant;
 import com.example.invasivespeciesdetection.ml.ModelUnquant;
 
 import org.tensorflow.lite.DataType;
-import org.tensorflow.lite.support.image.TensorImage;
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 
 // TODO: Create pop-up to replace result, Add decor to UI, Implement second page w/ alternate model to detect plant health,
 //  ! - Implement LLM API to handle descriptions of plants - ! **Implement third page as a detector for general organisms.
@@ -47,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button selectButton, captureButton, predictButton;
     TextView result;
+    TextView description;
     ImageView imageView;
     Bitmap bitmap;
 
@@ -65,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         predictButton = findViewById(R.id.identifyButton);
 
         result = findViewById(R.id.output);
+        description = findViewById(R.id.outputDesc);
 
         imageView = findViewById(R.id.imageView);
 
@@ -103,13 +95,13 @@ public class MainActivity extends AppCompatActivity {
                     byteBuffer.order(ByteOrder.nativeOrder());
 
                     // get 1D array of 224 * 224 pixels in image
-                    int [] intValues = new int[224 * 224];
+                    int[] intValues = new int[224 * 224];
                     bitmap.getPixels(intValues, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
 
                     // iterate over pixels and extract R, G, and B values. Add to bytebuffer.
                     int pixel = 0;
-                    for(int i = 0; i < 224; i++){
-                        for(int j = 0; j < 224; j++){
+                    for (int i = 0; i < 224; i++) {
+                        for (int j = 0; j < 224; j++) {
                             int val = intValues[pixel++]; // RGB
                             byteBuffer.putFloat(((val >> 16) & 0xFF) * (1.f / 255.f));
                             byteBuffer.putFloat(((val >> 8) & 0xFF) * (1.f / 255.f));
@@ -124,8 +116,13 @@ public class MainActivity extends AppCompatActivity {
                     TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
                     // Set text
-                    // Prevent model return from items with confidence below 65%
+                    // TODO Prevent model return from items with confidence below 60%
                     result.setText(getLabels()[getMax(outputFeature0.getFloatArray())] + "");
+
+                    // Get AI-Generated description of plant
+                    ChatPortal chatPortal = new ChatPortal(APIKey.getAPIKey(), getLabels()[getMax(outputFeature0.getFloatArray())] + "");
+
+                    description.setText(chatPortal.getChatCompletion() + "");
 
                     // Releases model resources if no longer used.
                     model.close();
@@ -135,7 +132,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
 
     }
 
