@@ -1,6 +1,6 @@
 # Florida-GreenGuard-AI
 
-A tool to streamline the identification process of invasive and non-native species in the Florida area.
+Streamline the identification process of invasive and non-native species in the Florida area.
 
 </br>
 
