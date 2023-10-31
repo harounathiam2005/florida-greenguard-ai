@@ -32,7 +32,7 @@ class ChatPortal(apiKey: String, prompt: String) {
          )
 
      suspend fun getChatCompletion(): ChatCompletion {
-        val completion: ChatCompletion = openai.chatCompletion(chatCompletionRequest)
+        val completion = openai.chatCompletion(chatCompletionRequest)
         return completion
     }
 

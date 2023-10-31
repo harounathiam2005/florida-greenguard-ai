@@ -122,9 +122,9 @@ public class MainActivity extends AppCompatActivity {
                     // Get AI-Generated description of plant
                     ChatPortal chatPortal = new ChatPortal(APIKey.getAPIKey(), getLabels()[getMax(outputFeature0.getFloatArray())] + "");
 
-                    description.setText(chatPortal.getChatCompletion() + "");
+                    chatPortal.getChatCompletion(new ChatCompletionContinuation(description));
 
-                    // Releases model resources if no longer used.
+                    // Releases model resources if no longer used.C
                     model.close();
                 } catch (IOException e) {
                     // TODO Handle the exception
