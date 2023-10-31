@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-main-22:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-merged_res-20:\\layout_popup_layout.xml.flat",
+        "source": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-main-22:\\layout\\popup_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-merged_res-20:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-pngs-16:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
@@ -28,16 +32,16 @@
         "source": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-main-22:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "com.example.invasivespeciesdetection.app-merged_res-20:/layout_popup_layout.xml.flat",
+        "source": "com.example.invasivespeciesdetection.app-main-22:/layout/popup_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-merged_res-20:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-main-22:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-merged_res-20:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-main-22:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.invasivespeciesdetection.app-merged_res-20:/layout_activity_main.xml.flat",
-        "source": "com.example.invasivespeciesdetection.app-main-22:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Harou\\.gradle\\daemon\\8.0\\com.example.invasivespeciesdetection.app-merged_res-20:\\mipmap-xxhdpi_ic_launcher.webp.flat",

@@ -3,10 +3,13 @@ package com.example.invasivespeciesdetection;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -29,6 +32,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
+import java.util.ArrayList;
 
 // TODO: Create pop-up to replace result, Add decor to UI, Implement second page w/ alternate model to detect plant health,
 //  ! - Implement LLM API to handle descriptions of plants - ! **Implement third page as a detector for general organisms.
@@ -36,10 +40,11 @@ import java.nio.ByteOrder;
 public class MainActivity extends AppCompatActivity {
 
     Button selectButton, captureButton, predictButton;
-    TextView result;
-    TextView description;
+    static TextView recents;
     ImageView imageView;
     Bitmap bitmap;
+    private FragmentManager fragmentManager;
+    static ArrayList<String> recentsList = new ArrayList<String>();
 
     int labelSize = 38;
 
@@ -48,6 +53,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+/*
+        FrameLayout popupLayoutContainer = findViewById(R.id.popupLayoutContainer);
+        View popupLayout = LayoutInflater.from(this).inflate(R.layout.popup_layout, popupLayoutContainer, false);
+        popupLayoutContainer.addView(popupLayout);
+
+ */
+        fragmentManager = getFragmentManager();
 
         getPermission();
 
@@ -55,10 +67,9 @@ public class MainActivity extends AppCompatActivity {
         captureButton = findViewById(R.id.captureButton);
         predictButton = findViewById(R.id.identifyButton);
 
-        result = findViewById(R.id.output);
-        description = findViewById(R.id.outputDesc);
-
         imageView = findViewById(R.id.imageView);
+
+        recents = findViewById(R.id.recents);
 
         selectButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -115,24 +126,40 @@ public class MainActivity extends AppCompatActivity {
                     ModelUnquant.Outputs outputs = model.process(inputFeature0);
                     TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
-                    // Set text
-                    // TODO Prevent model return from items with confidence below 60%
-                    result.setText(getLabels()[getMax(outputFeature0.getFloatArray())] + "");
-
                     // Get AI-Generated description of plant
-                    ChatPortal chatPortal = new ChatPortal("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", getLabels()[getMax(outputFeature0.getFloatArray())] + "");
-
-                    chatPortal.getChatCompletion(new ChatCompletionContinuation(description));
+                    String plantLabel = getLabels()[getMax(outputFeature0.getFloatArray())] + "";
 
                     // Releases model resources if no longer used.C
                     model.close();
+
+                    switchToPopupActivity(getLabels()[getMax(outputFeature0.getFloatArray())] + "");
+                    //recentsList.add(getLabels()[getMax(outputFeature0.getFloatArray())] + "");
+
                 } catch (IOException e) {
                     // TODO Handle the exception
                 }
 
             }
+
         });
 
+    }
+
+    private void switchToPopupActivity(String label) {
+        Intent intent = new Intent(this, PopupActivity.class);
+        intent.putExtra("resultText", label);
+        startActivity(intent);
+    }
+
+    // TODO: create list view of previous finds
+    public static void updateRecents() {
+        if (recentsList.size() == 1) {
+            recents.setText(recentsList.get(0));
+        } else if (recentsList.size() == 2) {
+            recents.setText(recentsList.get(0) + "|" + recentsList.get(1));
+        } else if (recentsList.size() >= 3) {
+            recents.setText(recentsList.get(recentsList.size() - 1) + "|" + recentsList.get(recentsList.size() - 2) + "|" + recentsList.get(recentsList.size() - 3));
+        }
     }
 
     int getMax(float[] arr) {

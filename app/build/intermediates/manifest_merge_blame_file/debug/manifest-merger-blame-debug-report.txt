@@ -34,7 +34,7 @@
 22-->[androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 23
 24    <application
-24-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:12:5-31:19
+24-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:12:5-40:19
 25        android:allowBackup="true"
 25-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:13:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -73,6 +73,23 @@
 43-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:27-74
 44            </intent-filter>
 45        </activity>
-46    </application>
-47
-48</manifest>
+46        <activity
+46-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:31:9-39:20
+47            android:name="com.example.invasivespeciesdetection.PopupActivity"
+47-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:32:13-42
+48            android:exported="true" >
+48-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:33:13-36
+49            <intent-filter>
+49-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:25:13-29:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:26:17-69
+50-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:26:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:17-77
+52-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:27-74
+53            </intent-filter>
+54        </activity>
+55    </application>
+56
+57</manifest>

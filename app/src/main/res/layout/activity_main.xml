@@ -52,26 +52,30 @@
         android:layout_centerHorizontal="true"
         android:background="@color/teal_200" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:text="Result: "
+   <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Recents: "
         android:layout_below="@id/identifyButton"
-        android:id="@+id/output"
+        android:id="@+id/recents"
         android:textSize="18dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:text="Description: "
-        android:layout_below="@id/output"
-        android:id="@+id/outputDesc"
-        android:textSize="18dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
+    <FrameLayout
+        android:id="@+id/popupContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-
-
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Description: "
+            android:layout_below="@id/output"
+            android:id="@+id/outputDesc"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+    -->
 </RelativeLayout>
