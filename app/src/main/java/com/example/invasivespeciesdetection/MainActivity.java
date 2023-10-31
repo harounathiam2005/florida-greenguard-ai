@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(getLabels()[getMax(outputFeature0.getFloatArray())] + "");
 
                     // Get AI-Generated description of plant
-                    ChatPortal chatPortal = new ChatPortal(APIKey.getAPIKey(), getLabels()[getMax(outputFeature0.getFloatArray())] + "");
+                    ChatPortal chatPortal = new ChatPortal("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", getLabels()[getMax(outputFeature0.getFloatArray())] + "");
 
                     chatPortal.getChatCompletion(new ChatCompletionContinuation(description));
 

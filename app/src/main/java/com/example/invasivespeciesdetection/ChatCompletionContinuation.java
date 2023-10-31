@@ -1,5 +1,6 @@
 package com.example.invasivespeciesdetection;
 
+import android.os.Build;
 import android.widget.TextView;
 
 import com.aallam.openai.api.chat.ChatCompletion;
@@ -14,7 +15,15 @@ public class ChatCompletionContinuation extends CustomContinuation<ChatCompletio
 
     @Override
     void consumeResult(ChatCompletion result) {
-        textView.setText(result.toString());
+        StringBuilder builder = new StringBuilder();
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            result.getChoices().forEach(
+                    choice -> builder.append(choice.getMessage().getContent())
+            );
+        }
+
+        textView.setText(builder.toString());
     }
 
     @Override

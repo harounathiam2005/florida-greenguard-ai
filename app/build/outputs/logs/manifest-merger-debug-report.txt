@@ -1,47 +1,48 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:2:1-32:12
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\3dfa35fa12f945f006b5b12a772cf04d\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\3c37655e509587980e089f5608002cac\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\8651f857b10015c1ef9b742b4fdbe6fc\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\Harou\.gradle\caches\transforms-3\30097f17bd7e419a7bfabafc10368a91\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:2:1-5:12
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\1a1a748e58d87cc6671efe76b5774804\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\7e25c07b71bcced2dfd341c14a450d31\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Harou\.gradle\caches\transforms-3\250774f1b3c1fca15abea448d66f226e\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\Harou\.gradle\caches\transforms-3\6ad99600f60bdbcfc9aff3aede660b5d\transformed\activity-1.2.3\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\04c9984d521ea6795fdba29a3dc4e37f\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\ae5078d390e80e33d5a46da8ee51de3d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\3f02abf9b36f4f750ffd9383481133b4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\11daf2da8b094fa3f5f66496475e9c0e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Harou\.gradle\caches\transforms-3\0bec9829942ff11e87fde7e2ab483adc\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\e3e78bbccdbb1c0d01fee4f27032d502\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\d75ef4db1b0982f6993e2eee84589785\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f91ac10225c1d30a5d5d73e5ceb1d121\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\0e7a042d0ab091154fd777097008d9b3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\e04d6507301f58f63bf6023b4ed601f4\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\f1e527f3f6f2d542376fb8ce2d72ba7d\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f56209c43a570445fe9c686d8644f621\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.5.0] C:\Users\Harou\.gradle\caches\transforms-3\37c91c9551efe91342ff626f3294784b\transformed\core-1.5.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\e0025efd2e5fba96f322e336ef128b0b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\e517eaf8437c3636c1696cff35643a1c\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\9294b4eff48929a727fd7c0b15287ff3\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\83c2bf0987925c08cda9cc703138a9e6\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\564c6b344d5af4498407fed2390c28ff\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\ab18ff3ac4d39fcf5fdb857f4d3abd3a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\ab778e6385f4022e97ed9c5f386c743f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f99f26451a78775ac2cfd135d772e059\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Harou\.gradle\caches\transforms-3\216e250b193ca520f926fc207d85676c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\4765597b91361500ac258d1cc989a0c2\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Harou\.gradle\caches\transforms-3\24e417c87a1c4bd8ce002da13787b32d\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\b174bae819b459199c641801f91db6c9\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\67ba6396f37af380988ad097ac0e6449\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\4f91fc98f14c67388a07113efb9597a8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\d10a8a2d394ffd02114e3704193cd7ec\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\7b6653770767869da40aa4c740098125\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\aee37795c04fc5b99d39403dbe54a9e7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:2:1-12:12
+ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\329c0e0c96eb70a43a25238b31fdb2b4\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\006963516c92870406fc19225b3f0b81\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\ee049c8fb69826bc7053c412c9031b0e\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\bd8dd3364d3923d1ef062705c7c21b0d\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Harou\.gradle\caches\transforms-3\4dcca42065ce7d5c2f7c3f7ceb89a53d\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Harou\.gradle\caches\transforms-3\22988b620417790736a678aed9be2306\transformed\activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\4752d1a2f3537bafb9c32db44e42503c\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\59db176210eb4dc9d696e3494e863fff\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\7ce4f657d45da535bda37b871c8d6e59\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\74a8bf640250d101bd7dd8c623d86446\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Harou\.gradle\caches\transforms-3\1e18539a635e83c96a5f567ddd25d7fb\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\b56221fee76ebc8ddf201184c2d1b141\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\fbba0d5e5786e648b15746946bcab1ab\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\0f5af0b8ca79697f2c50e24177d6c6bf\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\2c3963c7a7912ba2b712cca8140ee6c9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\b32d5eef340ce7f4a855ac2f701efcac\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\1a8e8c8485b25b5448da0b455a6fdcce\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\96fcd59043e24174eb79d41fd0d9f0c8\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\a58a9766033129d0fd262e823d6cc356\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\7dffc2fc55dd7ef47d2e71130a2852da\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\6723cc48bf9bea40a0e5954836d39fac\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\446037870a3b12105121ca459e0a002d\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\13f700a4dd03e68c121940b524ffc28d\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\0f84eb726d7d295ce8802ebc61076168\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\d63d44ae3d38a510119758eae236b2a3\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\6a0d94fb00b39bfc3cf430327e46e504\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\442dcd349e4d329d69157a9b4a745244\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\658a2f913cda42bbd4a38e51277db5b0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f8268b588f783f1b82bb4b8025d86223\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\eb52c6019998be2dbed26068ef86dd5b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Harou\.gradle\caches\transforms-3\d76cda377769c0c85a0b6abdaa8b79b4\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\090d76c360995b4131bc9e8272cf6bdc\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\dd38f3ccc3c21cb7e335f2f771b99aac\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\039e80fbe8acae060101c3b238bbc5f2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\eab8c614ae439bee44fb36b24986940b\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\Harou\.gradle\caches\transforms-3\cdb3a073bf08a4003e808242607b7d98\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\d1ee417a511ae594b7ec7916a6437f5b\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\96e10bdcc057b25fc6c5be806fef83a7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:2:1-12:12
 	package
 		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:4:5-51
 		INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml
@@ -63,142 +64,168 @@ uses-permission#android.permission.CAMERA
 ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:9:5-64
 	android:name
 		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:10:22-64
 application
-ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:11:5-30:19
-INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:11:5-30:19
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\3dfa35fa12f945f006b5b12a772cf04d\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\3dfa35fa12f945f006b5b12a772cf04d\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\3c37655e509587980e089f5608002cac\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\3c37655e509587980e089f5608002cac\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\1a1a748e58d87cc6671efe76b5774804\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:10:5-20
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\1a1a748e58d87cc6671efe76b5774804\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:10:5-20
-MERGED from [androidx.core:core:1.5.0] C:\Users\Harou\.gradle\caches\transforms-3\37c91c9551efe91342ff626f3294784b\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.5.0] C:\Users\Harou\.gradle\caches\transforms-3\37c91c9551efe91342ff626f3294784b\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\ab778e6385f4022e97ed9c5f386c743f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\ab778e6385f4022e97ed9c5f386c743f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\aee37795c04fc5b99d39403dbe54a9e7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
-MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\aee37795c04fc5b99d39403dbe54a9e7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:12:5-31:19
+INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:12:5-31:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\329c0e0c96eb70a43a25238b31fdb2b4\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\329c0e0c96eb70a43a25238b31fdb2b4\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\006963516c92870406fc19225b3f0b81\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\006963516c92870406fc19225b3f0b81\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\658a2f913cda42bbd4a38e51277db5b0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\658a2f913cda42bbd4a38e51277db5b0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\d1ee417a511ae594b7ec7916a6437f5b\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\d1ee417a511ae594b7ec7916a6437f5b\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\96e10bdcc057b25fc6c5be806fef83a7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\96e10bdcc057b25fc6c5be806fef83a7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
 	android:extractNativeLibs
 		INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.5.0] C:\Users\Harou\.gradle\caches\transforms-3\37c91c9551efe91342ff626f3294784b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:17:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:15:9-54
 	android:roundIcon
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:18:9-54
 	tools:targetApi
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:20:9-29
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:21:9-29
 	android:icon
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:19:9-62
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:20:9-62
 	android:dataExtractionRules
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:13:9-65
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:14:9-65
 activity#com.example.invasivespeciesdetection.MainActivity
-ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:21:9-29:20
+ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
 INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\3dfa35fa12f945f006b5b12a772cf04d\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\3dfa35fa12f945f006b5b12a772cf04d\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\3c37655e509587980e089f5608002cac\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\3c37655e509587980e089f5608002cac\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\8651f857b10015c1ef9b742b4fdbe6fc\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\8651f857b10015c1ef9b742b4fdbe6fc\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\Harou\.gradle\caches\transforms-3\30097f17bd7e419a7bfabafc10368a91\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
-MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\Harou\.gradle\caches\transforms-3\30097f17bd7e419a7bfabafc10368a91\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\1a1a748e58d87cc6671efe76b5774804\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:7:5-8:41
-MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\1a1a748e58d87cc6671efe76b5774804\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:7:5-8:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\7e25c07b71bcced2dfd341c14a450d31\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\7e25c07b71bcced2dfd341c14a450d31\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Harou\.gradle\caches\transforms-3\250774f1b3c1fca15abea448d66f226e\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Harou\.gradle\caches\transforms-3\250774f1b3c1fca15abea448d66f226e\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\Harou\.gradle\caches\transforms-3\6ad99600f60bdbcfc9aff3aede660b5d\transformed\activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.3] C:\Users\Harou\.gradle\caches\transforms-3\6ad99600f60bdbcfc9aff3aede660b5d\transformed\activity-1.2.3\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\04c9984d521ea6795fdba29a3dc4e37f\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\04c9984d521ea6795fdba29a3dc4e37f\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\ae5078d390e80e33d5a46da8ee51de3d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\ae5078d390e80e33d5a46da8ee51de3d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\3f02abf9b36f4f750ffd9383481133b4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\3f02abf9b36f4f750ffd9383481133b4\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\11daf2da8b094fa3f5f66496475e9c0e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\11daf2da8b094fa3f5f66496475e9c0e\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Harou\.gradle\caches\transforms-3\0bec9829942ff11e87fde7e2ab483adc\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\Harou\.gradle\caches\transforms-3\0bec9829942ff11e87fde7e2ab483adc\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\e3e78bbccdbb1c0d01fee4f27032d502\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\e3e78bbccdbb1c0d01fee4f27032d502\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\d75ef4db1b0982f6993e2eee84589785\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\d75ef4db1b0982f6993e2eee84589785\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f91ac10225c1d30a5d5d73e5ceb1d121\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f91ac10225c1d30a5d5d73e5ceb1d121\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\0e7a042d0ab091154fd777097008d9b3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\0e7a042d0ab091154fd777097008d9b3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\e04d6507301f58f63bf6023b4ed601f4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\e04d6507301f58f63bf6023b4ed601f4\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\f1e527f3f6f2d542376fb8ce2d72ba7d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\f1e527f3f6f2d542376fb8ce2d72ba7d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f56209c43a570445fe9c686d8644f621\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f56209c43a570445fe9c686d8644f621\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.5.0] C:\Users\Harou\.gradle\caches\transforms-3\37c91c9551efe91342ff626f3294784b\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.5.0] C:\Users\Harou\.gradle\caches\transforms-3\37c91c9551efe91342ff626f3294784b\transformed\core-1.5.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\e0025efd2e5fba96f322e336ef128b0b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\e0025efd2e5fba96f322e336ef128b0b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\e517eaf8437c3636c1696cff35643a1c\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\e517eaf8437c3636c1696cff35643a1c\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\9294b4eff48929a727fd7c0b15287ff3\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\9294b4eff48929a727fd7c0b15287ff3\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\83c2bf0987925c08cda9cc703138a9e6\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\83c2bf0987925c08cda9cc703138a9e6\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\564c6b344d5af4498407fed2390c28ff\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\564c6b344d5af4498407fed2390c28ff\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\ab18ff3ac4d39fcf5fdb857f4d3abd3a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\ab18ff3ac4d39fcf5fdb857f4d3abd3a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\ab778e6385f4022e97ed9c5f386c743f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\ab778e6385f4022e97ed9c5f386c743f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f99f26451a78775ac2cfd135d772e059\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f99f26451a78775ac2cfd135d772e059\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Harou\.gradle\caches\transforms-3\216e250b193ca520f926fc207d85676c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Harou\.gradle\caches\transforms-3\216e250b193ca520f926fc207d85676c\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\4765597b91361500ac258d1cc989a0c2\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\4765597b91361500ac258d1cc989a0c2\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Harou\.gradle\caches\transforms-3\24e417c87a1c4bd8ce002da13787b32d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Harou\.gradle\caches\transforms-3\24e417c87a1c4bd8ce002da13787b32d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\b174bae819b459199c641801f91db6c9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\b174bae819b459199c641801f91db6c9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\67ba6396f37af380988ad097ac0e6449\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\67ba6396f37af380988ad097ac0e6449\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\4f91fc98f14c67388a07113efb9597a8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\4f91fc98f14c67388a07113efb9597a8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\d10a8a2d394ffd02114e3704193cd7ec\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\d10a8a2d394ffd02114e3704193cd7ec\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\7b6653770767869da40aa4c740098125\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\7b6653770767869da40aa4c740098125\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\aee37795c04fc5b99d39403dbe54a9e7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
-MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\aee37795c04fc5b99d39403dbe54a9e7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\329c0e0c96eb70a43a25238b31fdb2b4\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\Harou\.gradle\caches\transforms-3\329c0e0c96eb70a43a25238b31fdb2b4\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\006963516c92870406fc19225b3f0b81\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Harou\.gradle\caches\transforms-3\006963516c92870406fc19225b3f0b81\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\ee049c8fb69826bc7053c412c9031b0e\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\ee049c8fb69826bc7053c412c9031b0e\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\bd8dd3364d3923d1ef062705c7c21b0d\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\bd8dd3364d3923d1ef062705c7c21b0d\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Harou\.gradle\caches\transforms-3\4dcca42065ce7d5c2f7c3f7ceb89a53d\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Harou\.gradle\caches\transforms-3\4dcca42065ce7d5c2f7c3f7ceb89a53d\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Harou\.gradle\caches\transforms-3\22988b620417790736a678aed9be2306\transformed\activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Harou\.gradle\caches\transforms-3\22988b620417790736a678aed9be2306\transformed\activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\4752d1a2f3537bafb9c32db44e42503c\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\4752d1a2f3537bafb9c32db44e42503c\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\59db176210eb4dc9d696e3494e863fff\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\59db176210eb4dc9d696e3494e863fff\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\7ce4f657d45da535bda37b871c8d6e59\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\7ce4f657d45da535bda37b871c8d6e59\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\74a8bf640250d101bd7dd8c623d86446\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\74a8bf640250d101bd7dd8c623d86446\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Harou\.gradle\caches\transforms-3\1e18539a635e83c96a5f567ddd25d7fb\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Harou\.gradle\caches\transforms-3\1e18539a635e83c96a5f567ddd25d7fb\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\b56221fee76ebc8ddf201184c2d1b141\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\b56221fee76ebc8ddf201184c2d1b141\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\fbba0d5e5786e648b15746946bcab1ab\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\fbba0d5e5786e648b15746946bcab1ab\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\0f5af0b8ca79697f2c50e24177d6c6bf\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\0f5af0b8ca79697f2c50e24177d6c6bf\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\2c3963c7a7912ba2b712cca8140ee6c9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\2c3963c7a7912ba2b712cca8140ee6c9\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\b32d5eef340ce7f4a855ac2f701efcac\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\b32d5eef340ce7f4a855ac2f701efcac\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\1a8e8c8485b25b5448da0b455a6fdcce\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\1a8e8c8485b25b5448da0b455a6fdcce\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\96fcd59043e24174eb79d41fd0d9f0c8\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\96fcd59043e24174eb79d41fd0d9f0c8\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\a58a9766033129d0fd262e823d6cc356\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\a58a9766033129d0fd262e823d6cc356\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\7dffc2fc55dd7ef47d2e71130a2852da\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Harou\.gradle\caches\transforms-3\7dffc2fc55dd7ef47d2e71130a2852da\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\6723cc48bf9bea40a0e5954836d39fac\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\6723cc48bf9bea40a0e5954836d39fac\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\446037870a3b12105121ca459e0a002d\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\446037870a3b12105121ca459e0a002d\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\13f700a4dd03e68c121940b524ffc28d\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Harou\.gradle\caches\transforms-3\13f700a4dd03e68c121940b524ffc28d\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\0f84eb726d7d295ce8802ebc61076168\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\0f84eb726d7d295ce8802ebc61076168\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\d63d44ae3d38a510119758eae236b2a3\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\d63d44ae3d38a510119758eae236b2a3\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\6a0d94fb00b39bfc3cf430327e46e504\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\6a0d94fb00b39bfc3cf430327e46e504\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\442dcd349e4d329d69157a9b4a745244\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\442dcd349e4d329d69157a9b4a745244\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\658a2f913cda42bbd4a38e51277db5b0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Harou\.gradle\caches\transforms-3\658a2f913cda42bbd4a38e51277db5b0\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f8268b588f783f1b82bb4b8025d86223\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Harou\.gradle\caches\transforms-3\f8268b588f783f1b82bb4b8025d86223\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\eb52c6019998be2dbed26068ef86dd5b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Harou\.gradle\caches\transforms-3\eb52c6019998be2dbed26068ef86dd5b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Harou\.gradle\caches\transforms-3\d76cda377769c0c85a0b6abdaa8b79b4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Harou\.gradle\caches\transforms-3\d76cda377769c0c85a0b6abdaa8b79b4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\090d76c360995b4131bc9e8272cf6bdc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\090d76c360995b4131bc9e8272cf6bdc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\dd38f3ccc3c21cb7e335f2f771b99aac\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\dd38f3ccc3c21cb7e335f2f771b99aac\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\039e80fbe8acae060101c3b238bbc5f2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\039e80fbe8acae060101c3b238bbc5f2\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\eab8c614ae439bee44fb36b24986940b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Harou\.gradle\caches\transforms-3\eab8c614ae439bee44fb36b24986940b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\Harou\.gradle\caches\transforms-3\cdb3a073bf08a4003e808242607b7d98\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\Harou\.gradle\caches\transforms-3\cdb3a073bf08a4003e808242607b7d98\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\d1ee417a511ae594b7ec7916a6437f5b\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu:2.3.0] C:\Users\Harou\.gradle\caches\transforms-3\d1ee417a511ae594b7ec7916a6437f5b\transformed\tensorflow-lite-gpu-2.3.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\96e10bdcc057b25fc6c5be806fef83a7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\Harou\.gradle\caches\transforms-3\96e10bdcc057b25fc6c5be806fef83a7\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
 	android:targetSdkVersion
 		INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml
 		MERGED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml
 		MERGED from C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.example.invasivespeciesdetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.invasivespeciesdetection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:26:22-94

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.invasivespeciesdetection.app-mergeDebugResources-16:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
+            "outputFile": "com.example.invasivespeciesdetection.app-mergeDebugResources-18:/values-w480dp-port-v13/values-w480dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Harou\\.gradle\\caches\\transforms-3\\3dfa35fa12f945f006b5b12a772cf04d\\transformed\\material-1.4.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
+                    "source": "C:\\Users\\Harou\\.gradle\\caches\\transforms-3\\329c0e0c96eb70a43a25238b31fdb2b4\\transformed\\material-1.4.0\\res\\values-w480dp-port-v13\\values-w480dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
