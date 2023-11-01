@@ -22,7 +22,7 @@ The app leverages the power of a machine learning image classification model tra
 </p>
 
 <p>
-With this tool, the hope is for environmentalists and interested residents alike to identify non-native plant species in Florida with high accuracy and take the required steps to deal with wildlife that impact the state’s biodiversity.
+With this tool, the hope is for environmentalists and interested residents alike to identify non-native plant species in Florida with high accuracy and simply begin to take the required steps to deal with wildlife that impact the state’s biodiversity.
 </p>
 
 </br>
