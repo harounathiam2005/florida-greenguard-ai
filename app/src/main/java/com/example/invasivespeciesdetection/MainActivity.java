@@ -128,11 +128,11 @@ public class MainActivity extends AppCompatActivity {
 
                     // Get AI-Generated description of plant
                     String plantLabel;
-                    if (getMax(outputFeature0.getFloatArray()) <= 40) {
-                        plantLabel = "Undetermined";
-                    } else {
+                    //if (getMax(outputFeature0.getFloatArray()) <= 30) {
+                        //plantLabel = "Undetermined";
+                    //} else {
                         plantLabel = getLabels()[getMax(outputFeature0.getFloatArray())] + "";
-                    }
+                    //}
 
                     // Releases model resources if no longer used.C
                     model.close();

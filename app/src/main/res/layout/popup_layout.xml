@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="242dp"
             android:scrollbars="vertical"
-            android:text="Description"
+            android:text="Pending..."
             android:layout_marginTop="20dp"
             android:textStyle="italic" />
 
