@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ccff85"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:text="Florida Invasive Plant Detection"
+        android:text="Florida GreenGuard AI"
         android:id="@+id/title"
-        android:textSize="23dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
 
@@ -21,7 +23,7 @@
         android:layout_height="200dp"
         android:layout_below="@id/title"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="30dp"
         android:layout_marginRight="60dp" />
 
     <Button
@@ -30,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:text="Select image" />
 
     <Button
@@ -43,15 +45,27 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:text="Identify"
+        android:textSize="20dp"
+        android:textStyle="bold"
         android:layout_below="@id/captureButton"
         android:id="@+id/identifyButton"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:background="@color/teal_200" />
+        android:background="@drawable/button_round"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plant Health Center"
+        android:layout_below="@id/identifyButton"
+        android:id="@+id/plantHealth"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:color="@color/teal_200" />
+<!--
    <TextView
         android:layout_width="350dp"
         android:layout_height="wrap_content"
@@ -61,7 +75,7 @@
         android:textSize="18dp"
         android:layout_marginTop="150dp"
         android:layout_centerHorizontal="true"/>
-
+-->
     <FrameLayout
         android:id="@+id/popupContainer"
         android:layout_width="match_parent"

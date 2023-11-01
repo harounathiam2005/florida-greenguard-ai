@@ -22,7 +22,7 @@ class ChatPortal(apiKey: String, prompt: String) {
              messages = listOf(
                  ChatMessage(
                      role = ChatRole.System,
-                     content = "Tell me a little bit about $prompt."
+                     content = "Give me a very brief description $prompt."
                  ),
                  ChatMessage(
                      role = ChatRole.User,

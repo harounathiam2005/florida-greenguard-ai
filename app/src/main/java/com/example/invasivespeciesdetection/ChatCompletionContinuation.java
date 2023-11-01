@@ -24,6 +24,7 @@ public class ChatCompletionContinuation extends CustomContinuation<ChatCompletio
         }
 
         textView.setText(builder.toString());
+        //textView.setText("XXXXXXXXX");
     }
 
     @Override

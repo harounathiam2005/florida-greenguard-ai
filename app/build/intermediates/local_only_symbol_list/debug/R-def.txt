@@ -7,6 +7,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable button_round
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id captureButton
@@ -14,9 +15,9 @@ id identifyButton
 id imageView
 id outputDescPop
 id outputPop
+id plantHealth
 id popupContainer
 id popup_layout
-id recents
 id selectButton
 id title
 layout activity_main

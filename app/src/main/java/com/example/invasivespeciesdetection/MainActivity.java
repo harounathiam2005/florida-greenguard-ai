@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageView = findViewById(R.id.imageView);
 
-        recents = findViewById(R.id.recents);
+        //recents = findViewById(R.id.recents);
 
         selectButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -127,13 +127,19 @@ public class MainActivity extends AppCompatActivity {
                     TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
                     // Get AI-Generated description of plant
-                    String plantLabel = getLabels()[getMax(outputFeature0.getFloatArray())] + "";
+                    String plantLabel;
+                    if (getMax(outputFeature0.getFloatArray()) <= 40) {
+                        plantLabel = "Undetermined";
+                    } else {
+                        plantLabel = getLabels()[getMax(outputFeature0.getFloatArray())] + "";
+                    }
 
                     // Releases model resources if no longer used.C
                     model.close();
 
-                    switchToPopupActivity(getLabels()[getMax(outputFeature0.getFloatArray())] + "");
-                    //recentsList.add(getLabels()[getMax(outputFeature0.getFloatArray())] + "");
+                    switchToPopupActivity(plantLabel);
+                    //recentsList.add(plantLabel + "");
+                    //updateRecents();
 
                 } catch (IOException e) {
                     // TODO Handle the exception
@@ -150,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("resultText", label);
         startActivity(intent);
     }
-
+/*
     // TODO: create list view of previous finds
     public static void updateRecents() {
         if (recentsList.size() == 1) {
@@ -161,6 +167,8 @@ public class MainActivity extends AppCompatActivity {
             recents.setText(recentsList.get(recentsList.size() - 1) + "|" + recentsList.get(recentsList.size() - 2) + "|" + recentsList.get(recentsList.size() - 3));
         }
     }
+
+ */
 
     int getMax(float[] arr) {
         int max = 0;

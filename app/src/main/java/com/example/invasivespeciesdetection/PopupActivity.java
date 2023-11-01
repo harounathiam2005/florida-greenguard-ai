@@ -5,6 +5,16 @@ import android.widget.TextView;
 import com.example.invasivespeciesdetection.MainActivity;
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.URL;
+
 public class PopupActivity extends AppCompatActivity {
 
     TextView result, description;
@@ -23,5 +33,6 @@ public class PopupActivity extends AppCompatActivity {
 
         result.setText(getIntent().getStringExtra("resultText"));
         chatPortal.getChatCompletion(new ChatCompletionContinuation(description));
+
     }
 }
