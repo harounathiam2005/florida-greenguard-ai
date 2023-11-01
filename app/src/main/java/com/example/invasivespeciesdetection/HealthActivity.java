@@ -3,13 +3,11 @@ package com.example.invasivespeciesdetection;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
 import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
@@ -23,6 +21,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.invasivespeciesdetection.ml.ModelUnquant;
+import com.example.invasivespeciesdetection.ml.ModelUnquantAilments;
 
 import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
@@ -37,22 +36,22 @@ import java.util.ArrayList;
 // TODO: Create pop-up to replace result, Add decor to UI, Implement second page w/ alternate model to detect plant health,
 //  ! - Implement LLM API to handle descriptions of plants - ! **Implement third page as a detector for general organisms.
 
-public class MainActivity extends AppCompatActivity {
+public class HealthActivity extends AppCompatActivity {
 
-    Button selectButton, captureButton, predictButton, plantHealthButton;
+    Button selectButton, captureButton, predictButton, invasiveSpeciesButton;
     static TextView recents;
     ImageView imageView;
     Bitmap bitmap;
     private FragmentManager fragmentManager;
     static ArrayList<String> recentsList = new ArrayList<String>();
 
-    int labelSize = 39;
+    int labelSize = 38;
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.plant_health);
 /*
         FrameLayout popupLayoutContainer = findViewById(R.id.popupLayoutContainer);
         View popupLayout = LayoutInflater.from(this).inflate(R.layout.popup_layout, popupLayoutContainer, false);
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         selectButton = findViewById(R.id.selectButton);
         captureButton = findViewById(R.id.captureButton);
         predictButton = findViewById(R.id.identifyButton);
-        plantHealthButton = findViewById(R.id.plantHealth);
+        invasiveSpeciesButton = findViewById(R.id.invasiveSpecies);
 
         imageView = findViewById(R.id.imageView);
 
@@ -98,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
                     bitmap = Bitmap.createScaledBitmap(bitmap, 224, 224, true);
 
-                    ModelUnquant model = ModelUnquant.newInstance(MainActivity.this);
+                    ModelUnquantAilments model = ModelUnquantAilments.newInstance(HealthActivity.this);
 
                     // Creates inputs for reference.
                     TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);
@@ -124,21 +123,21 @@ public class MainActivity extends AppCompatActivity {
                     inputFeature0.loadBuffer(byteBuffer);
 
                     // Runs model inference and gets result.
-                    ModelUnquant.Outputs outputs = model.process(inputFeature0);
+                    ModelUnquantAilments.Outputs outputs = model.process(inputFeature0);
                     TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
                     // Get AI-Generated description of plant
-                    String plantLabel;
+                    String ailmentLabel;
                     //if (getMax(outputFeature0.getFloatArray()) <= 30) {
-                        //plantLabel = "Undetermined";
+                    //plantLabel = "Undetermined";
                     //} else {
-                        plantLabel = getLabels()[getMax(outputFeature0.getFloatArray())] + "";
+                    ailmentLabel = getLabels()[getMax(outputFeature0.getFloatArray())] + "";
                     //}
 
                     // Releases model resources if no longer used.C
                     model.close();
 
-                    switchToPopupActivity(plantLabel);
+                    switchToPopupHealthActivity(ailmentLabel);
                     //recentsList.add(plantLabel + "");
                     //updateRecents();
 
@@ -150,30 +149,27 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        plantHealthButton.setOnClickListener(new View.OnClickListener() {
+        invasiveSpeciesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                switchToHealthActivity();
+                switchToMainActivity();
 
             }
-
         });
-
 
     }
 
-    private void switchToPopupActivity(String label) {
-        Intent intent = new Intent(this, PopupActivity.class);
+    private void switchToPopupHealthActivity(String label) {
+        Intent intent = new Intent(this, PopupHealthActivity.class);
         intent.putExtra("resultText", label);
         startActivity(intent);
     }
 
-    private void switchToHealthActivity() {
-        Intent intent = new Intent(this, HealthActivity.class);
+    private void switchToMainActivity() {
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-
 /*
     // TODO: create list view of previous finds
     public static void updateRecents() {
@@ -191,10 +187,10 @@ public class MainActivity extends AppCompatActivity {
     int getMax(float[] arr) {
         int max = 0;
         for (int i = 0; i < arr.length; i++) {
-                if (arr[i] > arr[max]) {
-                    max = i;
-                }
+            if (arr[i] > arr[max]) {
+                max = i;
             }
+        }
         return max;
     }
 
@@ -204,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
         int count = 0;
 
         try {
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("labels.txt")));
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("labels_ailments.txt")));
             String line = bufferedReader.readLine();
             while (line != null && count < labelSize) {
                 labels[count] = line;
@@ -223,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.M)
     void getPermission() {
         if (checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CAMERA}, 11);
+            ActivityCompat.requestPermissions(HealthActivity.this, new String[]{Manifest.permission.CAMERA}, 11);
         }
     }
 

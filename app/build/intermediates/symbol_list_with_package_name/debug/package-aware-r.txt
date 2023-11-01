@@ -1839,6 +1839,7 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id blocking
+id blurb
 id bottom
 id bounce
 id buttonPanel
@@ -1949,6 +1950,7 @@ id ignoreRequest
 id image
 id imageView
 id info
+id invasiveSpecies
 id invisible
 id inward
 id italic
@@ -2037,6 +2039,7 @@ id outputDescPop
 id outputPop
 id outward
 id packed
+id page
 id parallax
 id parent
 id parentPanel
@@ -2322,6 +2325,8 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout plant_health
+layout popup_health_layout
 layout popup_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

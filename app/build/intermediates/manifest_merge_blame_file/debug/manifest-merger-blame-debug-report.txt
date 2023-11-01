@@ -34,7 +34,7 @@
 22-->[androidx.core:core:1.12.0] C:\Users\Harou\.gradle\caches\transforms-3\6fd1d66d8de634a956f8e574f07c5ba8\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 23
 24    <application
-24-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:12:5-40:19
+24-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:12:5-58:19
 25        android:allowBackup="true"
 25-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:13:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -90,6 +90,40 @@
 52-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:27-74
 53            </intent-filter>
 54        </activity>
-55    </application>
-56
-57</manifest>
+55        <activity
+55-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:40:9-48:20
+56            android:name="com.example.invasivespeciesdetection.HealthActivity"
+56-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:41:13-43
+57            android:exported="true" >
+57-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:42:13-36
+58            <intent-filter>
+58-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:25:13-29:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:26:17-69
+59-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:26:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:17-77
+61-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:49:9-57:20
+65            android:name="com.example.invasivespeciesdetection.PopupHealthActivity"
+65-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:50:13-48
+66            android:exported="true" >
+66-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:51:13-36
+67            <intent-filter>
+67-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:25:13-29:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:26:17-69
+68-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:26:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:17-77
+70-->C:\Users\Harou\StudioProjects\Florida-GreenGuard-AI-Rectified-2\app\src\main\AndroidManifest.xml:28:27-74
+71            </intent-filter>
+72        </activity>
+73    </application>
+74
+75</manifest>

@@ -1,95 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ccff85"
-    tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:text="Florida GreenGuard AI"
-        android:id="@+id/title"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_below="@id/title"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="60dp" />
-
-    <Button
-        android:id="@+id/selectButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="Select image" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Camera"
-        android:layout_below="@id/selectButton"
-        android:id="@+id/captureButton"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:text="Identify"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_below="@id/captureButton"
-        android:id="@+id/identifyButton"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/button_round"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Plant Health Center"
-        android:layout_below="@id/identifyButton"
-        android:id="@+id/plantHealth"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"
-        android:color="@color/teal_200" />
-<!--
-   <TextView
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:text="Recents: "
-        android:layout_below="@id/identifyButton"
-        android:id="@+id/recents"
-        android:textSize="18dp"
-        android:layout_marginTop="150dp"
-        android:layout_centerHorizontal="true"/>
--->
-    <FrameLayout
-        android:id="@+id/popupContainer"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="2000dp"
+        android:background="#ccff85"
+        tools:context=".MainActivity">
 
-    <!--
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:text="Description: "
-            android:layout_below="@id/output"
-            android:id="@+id/outputDesc"
-            android:textSize="18dp"
+            android:text="FLORIDA GREENGUARD AI"
+            android:id="@+id/title"
+            android:textSize="32dp"
+            android:textStyle="bold"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp" />
-    -->
-</RelativeLayout>
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Invasive Plant Detection"
+            android:id="@+id/page"
+            android:textSize="10dp"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="60dp" />
+
+        <Button
+            android:id="@+id/selectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Select image" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:layout_below="@id/selectButton"
+            android:id="@+id/captureButton"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Identify"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@id/captureButton"
+            android:id="@+id/identifyButton"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_round"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plant Health Center"
+            android:layout_below="@id/identifyButton"
+            android:id="@+id/plantHealth"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:color="@color/teal_200" />
+        <!--
+           <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Recents: "
+                android:layout_below="@id/identifyButton"
+                android:id="@+id/recents"
+                android:textSize="18dp"
+                android:layout_marginTop="150dp"
+                android:layout_centerHorizontal="true"/>
+        -->
+        <FrameLayout
+            android:id="@+id/popupContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Description: "
+                android:layout_below="@id/output"
+                android:id="@+id/outputDesc"
+                android:textSize="18dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+        -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sustain our ecology"
+            android:id="@+id/blurb"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/plantHealth"
+            android:layout_marginTop="70dp" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blurb"
+            android:text="One of the biggest threats to ecosystem balance are invasive species. However, not all non-native species are invasive. Non-native species become invasive when they successfully establish themselves in a new environment and cause harm to the native ecosystem. Invasive species are a significant concern because they can have detrimental ecological and economic effects and often require management and control measures to mitigate their impact. Similarly, not every organism identified by the model will be particularly harmful to the Florida ecosystem."
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blurb"
+            android:text="Non-native species refer to any species of plants, animals, or microorganisms that are not originally from a particular ecosystem or region. They have been introduced to a new area, either intentionally or accidentally, by human activities such as trade, travel, or agriculture.
+Non-native species can be benign or even beneficial to their new environment, coexisting with native species without causing harm. Some non-native species may become invasive if they have no natural predators or controls in their new environment and disrupt the balance of the ecosystem."
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="260dp"
+            />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blurb"
+            android:text="Invasive species are a subset of non-native species that have the ability to rapidly spread and establish themselves in a new ecosystem, often causing harm to the environment, economy, or human health. They are characterized by their aggressive nature, high reproduction rates, and the ability to outcompete or negatively impact native species. They can also disrupt ecosystems, alter habitats, and lead to a loss of biodiversity. They are considered a major threat to native species and ecosystems."
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="480dp"
+            />
+
+    </RelativeLayout>
+</ScrollView>

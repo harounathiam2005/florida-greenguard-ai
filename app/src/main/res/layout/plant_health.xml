@@ -8,8 +8,8 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="2000dp"
-        android:background="#ccff85"
-        tools:context=".MainActivity">
+        android:background="#bffff8"
+        tools:context=".HealthActivity">
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,7 +24,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:text="Invasive Plant Detection"
+            android:text="Plant Ailment Detection"
             android:id="@+id/page"
             android:textSize="10dp"
             android:layout_below="@id/title"
@@ -73,9 +73,9 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Plant Health Center"
+            android:text="Invasive Species Detection"
             android:layout_below="@id/identifyButton"
-            android:id="@+id/plantHealth"
+            android:id="@+id/invasiveSpecies"
             android:layout_marginTop="20dp"
             android:layout_centerHorizontal="true"
             android:color="@color/teal_200" />
@@ -114,7 +114,7 @@
             android:id="@+id/blurb"
             android:textSize="30dp"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/plantHealth"
+            android:layout_below="@id/invasiveSpecies"
             android:layout_marginTop="70dp" />
 
         <TextView

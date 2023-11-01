@@ -15,21 +15,21 @@ import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 
-public class PopupActivity extends AppCompatActivity {
+public class PopupHealthActivity extends AppCompatActivity {
 
     TextView result, description;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.popup_layout);
+        setContentView(R.layout.popup_health_layout);
 
         result = findViewById(R.id.outputPop);
         description = findViewById(R.id.outputDescPop);
 
         String label = getIntent().getStringExtra("resultText");
 
-        ChatPortal chatPortal = new ChatPortal(APIKey.getAPIKey() + "", "Give me a very brief description of " + label + ". Is it invasive?");
+        ChatPortal chatPortal = new ChatPortal(APIKey.getAPIKey() + "", "Give me a very brief description of " + label + " in plants. How can it be fixed?");
 
         result.setText(getIntent().getStringExtra("resultText"));
         chatPortal.getChatCompletion(new ChatCompletionContinuation(description));

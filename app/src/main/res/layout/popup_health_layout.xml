@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ccff85"
-    tools:context=".PopupActivity">
+    android:background="#bffff8"
+    tools:context=".PopupHealthActivity">
 
     <LinearLayout
         android:id="@+id/popup_layout"
@@ -24,14 +24,14 @@
             android:id="@+id/outputPop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PLANT TITLE"
+            android:text="DIAGNOSIS"
             android:textSize="30dp"
             android:textStyle="italic" />
 
         <TextView
             android:id="@+id/outputDescPop"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="242dp"
             android:scrollbars="vertical"
             android:text="Pending..."
             android:layout_marginTop="20dp"
