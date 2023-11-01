@@ -17,7 +17,7 @@ An app and environmental tool developed to equip environmentalists and residents
 </br>
 
 <p>
-The app leverages the power of a machine learning image classification model trained on hundreds of species from tens of thousands of collected images of non-Florida native flora thorugh deep learning algorithms. Additionally, the app utilizes the OpenAI API via an open-source Kotlin support library to leverage the power of a large language model, generating helpful descriptions for each recognized plant. With this tool, the hope is for environmentalists and interested residents alike to identify non-native plant species in Florida with high accuracy and take the required steps to deal with wildlife that impact the state’s biodiversity.
+The app leverages the power of a machine learning image classification model trained on a plethora of species from tens of thousands of collected images of non-Florida native flora thorugh tensorflow deep learning algorithms. Additionally, the app utilizes the OpenAI API via an open-source Kotlin support library to leverage the power of a large language model, generating helpful descriptions for each recognized plant. With this tool, the hope is for environmentalists and interested residents alike to identify non-native plant species in Florida with high accuracy and take the required steps to deal with wildlife that impact the state’s biodiversity.
 </p>
 
 </br>
@@ -26,13 +26,10 @@ The app leverages the power of a machine learning image classification model tra
 <h3>Tools used:</h3>
 
 <li>Google Teachable Machine; Image Classification Model</li>
-<li>TensorFlow; TensorFlow Lite Model</li>
-<li>OpenAI API; GPT-3 Large Language Model</li>
+<li>TensorFlow Lite</li>
+<li>OpenAI API; GPT-3.5 Turbo Large Language Model</li>
 <li>Android Studio</li>
 <li>AS Emulation Device (+ HAXM for Windows)</li>
 <li>Java - Kotlin - XML</li>
 
 </br>
-
-Information gleaned from various verified sources to determine the species that are not native to Florida:
-<a hfref="https://www.usda.gov/">US Department of Agriculture</a>
