@@ -1,4 +1,4 @@
-# Florida-GreenGuard-AI
+# florida-greenguard-ai
 
 Streamline the identification process of invasive and non-native species in the Florida area.
 
