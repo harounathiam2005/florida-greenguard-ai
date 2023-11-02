@@ -52,5 +52,5 @@ With this tool, the hope is for environmentalists and interested residents alike
 </br>
 
 <p>
-(Unafiliated)
+(Unaffiliated)
 </p>
