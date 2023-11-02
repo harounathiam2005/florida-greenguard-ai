@@ -5,7 +5,7 @@ Streamline the identification process of invasive and non-native species in the 
 </br>
 
 <img src="https://landscapeforlife.colostate.edu/wp-content/uploads/2017/12/74_1459323-LGPT.jpg" height=300px></img>
-<img src="https://github.com/harounathiam2005/Florida-GreenGuard-AI/blob/main/app/src/main/Assets/Florida_GreenGuard_AI-Logo.png" height=400px></img>
+<img src="[https://github.com/harounathiam2005/Florida-GreenGuard-AI/blob/main/app/src/main/Assets/Florida_GreenGuard_AI-Logo.png](https://github.com/harounathiam2005/Florida-GreenGuard-AI/blob/main/app/src/main/Assets/Logo_w_Background-removebg-preview.png)" height=400px></img>
 
 </br>
 <hr>
