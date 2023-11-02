@@ -39,3 +39,18 @@ With this tool, the hope is for environmentalists and interested residents alike
 <li>Java - Kotlin - XML</li>
 
 </br>
+
+<div style="flex">
+<img src="https://avatars.githubusercontent.com/u/15658638?s=280&v=4" height=50px>
+<img src="https://dd.countit.at/media/programmieren-lernen/teachable-machine/teachable-machine-logo.png" height=50px>
+<img src="https://blogs.sap.com/wp-content/uploads/2023/08/1681142315open-ai-logo-1.png" height=50px>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/800px-Android_Studio_icon_%282023%29.svg.png" height=50px>
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" height=50px>
+<img src="https://developer.android.com/static/codelabs/basic-android-kotlin-compose-first-program/img/840cee8b164c10b.png" height=50px>
+</div>
+
+</br>
+
+<p>
+(Unafiliated)
+</p>
