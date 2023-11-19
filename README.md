@@ -33,6 +33,7 @@ With this tool, the hope is for environmentalists and interested residents alike
 </p>
 
 <img src="https://github.com/harounathiam2005/Florida-GreenGuard-AI/blob/main/app/src/main/Assets/Logo_w_Background-removebg-preview.png" height=300px></img>
+<p>*Note: A new OpenAI API Key will need to be generated and called for anyone who wishes to clone the project into a separate IDE.</p>
 <hr>
 
 <h3>Tools used:</h3>
