@@ -17,7 +17,7 @@ An app and environmental tool developed to equip environmentalists and residents
 </br>
 
 <p>
-The app leverages the power of a machine learning image classification model trained on a plethora of species from thousands of collected images of non-Florida native flora thorugh tensorflow deep learning algorithms. Additionally, the app utilizes the OpenAI API via an open-source Kotlin support library to leverage the power of a large language model, generating helpful descriptions for each recognized plant. The app also features an image classification model to detect possible dificiencies in plant nutrients (nitrogen, phosphorus, magnesium, etc.)
+The app leverages the power of a machine learning image classification model trained on a plethora of species from thousands of collected images of non-Florida native flora thorugh tensorflow deep learning algorithms. Additionally, the app utilizes the OpenAI API via an open-source Kotlin support library to leverage the power of a large language model, generating helpful descriptions for each recognized plant. The app also features an image classification model to detect possible deficiencies in plant nutrients (nitrogen, phosphorus, magnesium, etc.)
 </p>
 
 </br>
